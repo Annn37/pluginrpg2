@@ -22,7 +22,7 @@ jobs:
         run: |
           cd target
           jar cf RPGSkillPlugin-1.20.1.jar *
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: RPGSkillPlugin-1.20.1
           path: target/RPGSkillPlugin-1.20.1.jar
